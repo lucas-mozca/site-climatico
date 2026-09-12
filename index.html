@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Clima Atual</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="cloud.png" type="image/png" />
+
+  <!-- Fonte Inter (estilo Apple) -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+
+  <!-- Estilo -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>Previsão do Tempo</h2>
+    <input type="text" id="cityInput" placeholder="Digite a cidade" />
+    <button onclick="getWeather()">Buscar</button>
+
+    <div class="weather" id="weatherInfo"></div>
+    <div class="error" id="error"></div>
+  </div>
+
+
+  <!-- Script JS -->
+  <script src="script.js"></script>
+</body>
+</html>
